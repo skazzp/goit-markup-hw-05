@@ -4,6 +4,7 @@
 Цвет меню вторичный - #2196F3;
 Главный заголовок - #FFFFFF;
 Шрифты - Raleway 700;  Roboto 400,500,700,900; 
+Тайминг анимаций - cubic-bezier(0.4, 0, 0.2, 1)
  */
 *,
 *::before,
@@ -30,6 +31,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--bg-main);
   color: var(--color-secondary);
+  padding-bottom: 0;
 }
 h1,
 h2,
